@@ -1,16 +1,29 @@
 <div align="center">
 
 <!-- Typing animation -->
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=28&pause=1000&color=6366F1&center=true&vCenter=true&width=600&lines=Hey+%F0%9F%91%8B+I'm+Shivam+Thakur;MERN+%7C+Socket.io+%7C+AI+Integration;🚀+Building+real+products)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=28&pause=1000&color=6366F1&center=true&vCenter=true&width=700&lines=Hey+👋+I'm+Shivam+Thakur;MERN+%7C+Socket.io+%7C+AI+Integration;🚀+Building+real+products)](https://git.io/typing-svg)
 
 <br/>
 
-<!-- Profile views + followers -->
 ![Profile Views](https://komarev.com/ghpvc/?username=shivam22-source&color=6366f1&style=flat-square&label=Profile+Views)
 [![GitHub followers](https://img.shields.io/github/followers/shivam22-source?style=flat-square&color=6366f1&label=Followers)](https://github.com/shivam22-source)
 
-</div>
+<br/><br/>
 
+<a href="https://www.linkedin.com/in/shivam-thakur-715505251/">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+<a href="https://leetcode.com/u/Shivam1112/">
+  <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/>
+</a>
+<a href="https://www.codechef.com/users/shi_vam_56">
+  <img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white"/>
+</a>
+<a href="https://www.instagram.com/_.shivam._.thakur.__/">
+  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
+</a>
+
+</div>
 ---
 
 ## 🧑‍💻 About Me
