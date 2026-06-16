@@ -87,7 +87,7 @@ const shivam = {
 
 </div>
 
-> ⚠️ **To enable the snake:** Go to your profile repo → Actions tab → enable the snake workflow (see setup steps below)
+
 
 ---
 
