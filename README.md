@@ -36,7 +36,7 @@ const shivam = {
   extras:   ["Socket.io", "JWT Auth", "Gemini AI", "Cloudinary"],
   deploy:   ["Vercel", "Render", "MongoDB Atlas"],
   currently: "Building full-stack products with real users in mind",
-  fun_fact:  "I use a two-pointer algo to settle group expenses 💸",
+  
 };
 ```
 
