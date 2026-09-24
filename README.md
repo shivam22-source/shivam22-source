@@ -108,14 +108,8 @@ const shivam = {
 
 <div align="center">
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=shivam22-source&bg_color=0D1117&color=6366f1&line=a855f7&point=ffffff&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
-</div>
-
----
-
-<div align="center">
-
-*"Build things. Ship things. Learn from things."*
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=shivam22-source&theme=tokyonight" height="165"/>
+&nbsp;&nbsp;
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=shivam22-source&theme=tokyonight&utcOffset=5.5" height="165"/>
 
 </div>
