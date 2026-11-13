@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Typing animation -->
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=28&pause=1000&color=6366F1&center=true&vCenter=true&width=700&lines=Hey+👋+I'm+Shivam+Thakur;MERN+%7C+Socket.io+%7C+AI+Integration;🚀+Building+real+products)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=28&pause=1000&color=6366F1&center=true&vCenter=true&width=700&lines=Hey+👋+I'm+Shivam+Thakur;MERN+%7C+Socket.io+%7C+AI+%26+Search+Systems;🚀+Building+real+products)](https://git.io/typing-svg)
 
 <br/>
 
@@ -24,6 +24,7 @@
 </a>
 
 </div>
+
 ---
 
 ## 🧑‍💻 About Me
@@ -32,8 +33,8 @@
 const shivam = {
   name:     "Shivam Thakur",
   location: "India 🇮🇳",
-  stack:    ["React", "Node.js", "Express", "MongoDB"],
-  extras:   ["Socket.io", "JWT Auth", "Gemini AI", "Cloudinary"],
+  stack:    ["React", "Node.js", "Express", "MongoDB", "Python", "FastAPI", "PostgreSQL"],
+  extras:   ["Socket.io", "JWT Auth", "Gemini AI", "Cloudinary", "pgvector", "Hybrid Search (RRF)"],
   deploy:   ["Vercel", "Render", "MongoDB Atlas"],
   currently: "Building full-stack products with real users in mind",
   
@@ -48,10 +49,32 @@ const shivam = {
 
 | Project | What it does | Stack | Live |
 |---------|-------------|-------|------|
+| 🔍 **[WorkMesh](https://github.com/shivam22-source/WorkMesh)** | Permission-aware enterprise search & Q&A with verifiable citations (hybrid FTS + vector search, SQL-level ACLs) | FastAPI · PostgreSQL 16 · pgvector · Docker | [Run with Docker](https://github.com/shivam22-source/WorkMesh#readme) |
 | ✈️ **[TripSync](https://github.com/shivam22-source/Trip-Sync)** | Group travel planner with realtime chat & expense splitting | MERN · Socket.io · Cloudinary | [Demo](https://trip-sync-smoky.vercel.app/) |
 | 📒 **[Ledgerly](https://github.com/shivam22-source/Ledgerly)** | AI-powered finance ledger with Gemini insights | React · Node · MongoDB · Gemini | [Demo](https://ledgerly-navy.vercel.app/) |
 
 </div>
+
+---
+
+## 🔍 Project Spotlight: WorkMesh
+
+**Permission-aware enterprise knowledge search & Q&A with verifiable citations** — a single FastAPI service on PostgreSQL 16 + pgvector.
+
+- **Hybrid search:** Postgres full-text (`tsvector`) + dense vectors (`all-MiniLM-L6-v2`, HNSW) fused with Reciprocal Rank Fusion
+- **Pushdown access control:** document-level ACLs enforced *inside* SQL, so users never see content outside their groups (0 leaks across 500 adversarial queries)
+- **Grounded answers:** citations linked to sources; declines to answer when evidence is missing or unauthorized
+- **Production-minded:** signed JWT auth, audit logging, concurrency limiter with HTTP 503 backpressure, `/metrics` endpoint, 344 tests
+
+| Result | Number |
+|--------|--------|
+| Recall@5 on harder 60-query eval (95% CI) | **74.2%** [62.5%, 84.2%] |
+| Vector search latency after HNSW + ACL pushdown fix | ~3,920 ms → **~28 ms** |
+| p95 latency at 15 concurrent users | **< 640 ms** |
+
+> Measured on a synthetic 10,000-chunk corpus. The LLM answer step and the GitHub/Slack/Email connectors are intentionally mocked — the README documents exactly what is real vs. stubbed.
+
+[📂 View repo](https://github.com/shivam22-source/WorkMesh)
 
 ---
 
@@ -69,6 +92,10 @@ const shivam = {
 ![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
 </div>
 
